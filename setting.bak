@@ -1,0 +1,59 @@
+{
+    "autoAdd": {
+        "status": false,
+        "message": "ciee add bot tiati sange",
+        "reply": true
+    },
+    "autoLike": true,
+    "autoJoin": {
+        "status": true,
+        "message": "lahm-kun was here @!",
+        "reply": true,
+        "ticket": false
+    },
+    "autoRead": false,
+    "autoRespond": {
+        "status": true,
+        "message": "I'm afk right now"
+    },
+    "autoRespondMention": {
+        "status": true,
+        "message": "I'm afk right now"
+    },
+    "changeGroupPicture": [],
+    "changePictureProfile": false,
+    "changeCoverProfile": false,
+    "checkContact": false,
+    "checkPost": true,
+    "checkSticker": false,
+    "defaultReplyReader": "Hello @!, come here join to chat",
+    "greet": {
+        "join": {
+            "status": true,
+            "message": "@! welcum"
+        },
+        "leave": {
+            "status": true,
+            "message": "@! bye bye tod"
+        }
+    },
+    "myProfile": {
+        "coverId": "1581255664",
+        "displayName": "Lahm-kun",
+        "pictureStatus": "0hvu9f83mRKVoEHwF9AllWDThaJzdzMS8SfHhjPXQZdD99LmpcPCxjaXYadD0rfztYMXhiPCVNc2Mu",
+        "statusMessage": "afk"
+    },
+    "mimic": {
+        "status": false,
+        "target": {}
+    },
+    "restartPoint": null,
+    "setKey": {
+        "status": true,
+        "key": ""
+    },
+    "copyright": "If you respect the author please don't remove this copyright\n\u00a9 2018 Hello World",
+    "author_lineid": "You can add the author by line id, https://line.me/ti/p/~lahm-kun",
+    "author__lineid": "You can add the author by line id, http://line.me/ti/p/~lahm-kun",
+    "editor_lineid": "You can add the editor by line id, http://line.me/ti/p/~@lahm-kun"
+}

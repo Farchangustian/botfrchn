@@ -1,0 +1,60 @@
+{
+    "myProfile": {
+        "statusMessage": "afk",
+        "pictureStatus": "0hvu9fUZq6KVoEHwEDOu5WDThaJzdzMS8SfHhjPXQZdD99LmpcPCxjaXYadD0rfztYMXhiPCVNc2Mu",
+        "coverId": "1580014626",
+        "displayName": "aoxzora"
+    },
+    "changeGroupPicture": [],
+    "defaultReplyReader": "Sini kak @! temanin dedek \ud83d\ude25",
+    "checkContact": false,
+    "author_lineid": "You can add the author by line id, https://line.me/ti/p/~myyepz",
+    "checkSticker": false,
+    "autoRespondMention": {
+        "status": true,
+        "message": "I'm Afk Right Now"
+    },
+    "setKey": {
+        "key": "",
+        "status": true
+    },
+    "changePictureProfile": false,
+    "changevp": false,
+    "changeCoverProfile": false,
+    "restartPoint": "c7b919816e6ea03322f7445b3759a246b",
+    "checkPost": false,
+    "autoJoin": {
+        "status": false,
+        "ticket": true,
+        "message": "lahm-kun was here @!",
+        "reply": true
+    },
+    "changeCoverPicture": false,
+    "autoRespond": {
+        "status": false,
+        "message": "https://line.me/ti/p/~myyepz"
+    },
+    "greet": {
+        "join": {
+            "status": true,
+            "message": "@!,welcum"
+        },
+        "leave": {
+            "status": true,
+            "message": "Bye bye @!"
+        }
+    },
+    "autoRead": false,
+    "copyright": "If you respect the author please don't remove this copyright\n\u00a9 2018 Hello World",
+    "mimic": {
+        "target": {
+            "u3f844cd72c18c54434a1b4f2cd1550d6": false
+        },
+        "status": false
+    },
+    "autoAdd": {
+        "status": false,
+        "message": "ciee ngeadd tiati sange >\\\\<",
+        "reply": true
+    }
+}

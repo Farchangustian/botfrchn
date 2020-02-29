@@ -1,0 +1,15 @@
+
+648 : [Errno 7] No address associated with hostname
+221 : [Errno 7] No address associated with hostname
+549 : 'NoneType' object has no attribute 'lower'
+682 : 'NoneType' object has no attribute 'lower'
+875 : 'NoneType' object has no attribute 'lower'
+761 : 'NoneType' object has no attribute 'lower'
+636 : 'NoneType' object has no attribute 'lower'
+147 : 'NoneType' object has no attribute 'lower'
+354 : 'NoneType' object has no attribute 'lower'
+100 : [Errno 5] I/O error
+213 : [Errno 5] I/O error
+913 : lahmLove() takes 2 positional arguments but 3 were given
+409 : [Errno 103] Software caused connection abort
+113 : [Errno 5] I/O error

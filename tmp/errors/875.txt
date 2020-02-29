@@ -1,0 +1,4 @@
+  File "public.py", line 3394, in executeOp
+    executeCmd(msg, text, txt, cmd, msg_id, receiver, sender, to, setKey)
+  File "public.py", line 1501, in executeCmd
+    elif "musik " in msg.text.lower():

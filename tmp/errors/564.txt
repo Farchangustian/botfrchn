@@ -1,0 +1,14 @@
+  File "s.py", line 3352, in executeOp
+    executeCmd(msg, text, txt, cmd, msg_id, receiver, sender, to, setKey)
+  File "s.py", line 1112, in executeCmd
+    sender_profile = line.getContact(sender)
+  File "/data/data/com.termux/files/home/N/linepy/talk.py", line 10, in checkLogin
+    return func(*args, **kwargs)
+  File "/data/data/com.termux/files/home/N/linepy/talk.py", line 479, in getContact
+    return self.talk.getContact(mid)
+  File "/data/data/com.termux/files/home/N/akad/TalkService.py", line 4462, in getContact
+    self.send_getContact(id)
+  File "/data/data/com.termux/files/home/N/akad/TalkService.py", line 4466, in send_getContact
+    self._oprot.writeMessageBegin('getContact', TMessageType.CALL, self._seqid)
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/thrift/protocol/TCompactProtocol.py", line 156, in writeMessageBegin
+    assert self.state == CLEAR

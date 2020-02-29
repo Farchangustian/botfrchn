@@ -1,0 +1,22 @@
+  File "s.py", line 3352, in executeOp
+    executeCmd(msg, text, txt, cmd, msg_id, receiver, sender, to, setKey)
+  File "s.py", line 2673, in executeCmd
+    mentionMembers(to, members)
+  File "s.py", line 428, in mentionMembers
+    line.sendReplyMessage(to, result, {'MENTION': json.dumps({'MENTIONEES': mentionees})}, 0)
+  File "/data/data/com.termux/files/home/N/linepy/talk.py", line 10, in checkLogin
+    return func(*args, **kwargs)
+  File "/data/data/com.termux/files/home/N/linepy/talk.py", line 213, in sendReplyMessage
+    return self.talk.sendMessage(self._messageReq[to], msg)
+  File "/data/data/com.termux/files/home/N/akad/TalkService.py", line 8661, in sendMessage
+    self.send_sendMessage(seq, message)
+  File "/data/data/com.termux/files/home/N/akad/TalkService.py", line 8669, in send_sendMessage
+    args.write(self._oprot)
+  File "/data/data/com.termux/files/home/N/akad/TalkService.py", line 44983, in write
+    self.message.write(oprot)
+  File "/data/data/com.termux/files/home/N/akad/ttypes.py", line 17162, in write
+    oprot.writeString(self.text.encode('utf-8') if sys.version_info[0] == 2 else self.text)
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/thrift/protocol/TProtocol.py", line 121, in writeString
+    self.writeBinary(str_to_binary(str_val))
+  File "/data/data/com.termux/files/usr/lib/python3.8/site-packages/thrift/compat.py", line 40, in str_to_binary
+    return bytes(str_val, 'utf8')

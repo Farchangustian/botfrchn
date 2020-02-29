@@ -1,0 +1,28 @@
+  File "s.py", line 3356, in executeOp
+    line.sendMentionV2(op.param1, settings['greet']['join']['message'].format(name=line.getCompactGroup(op.param1).name), [op.param2])
+  File "/data/data/com.termux/files/home/N/linepy/talk.py", line 10, in checkLogin
+    return func(*args, **kwargs)
+  File "/data/data/com.termux/files/home/N/linepy/talk.py", line 578, in getCompactGroup
+    return self.talk.getCompactGroup(groupId)
+  File "/data/data/com.termux/files/home/N/akad/TalkService.py", line 4394, in getCompactGroup
+    self.send_getCompactGroup(groupId)
+  File "/data/data/com.termux/files/home/N/akad/TalkService.py", line 4403, in send_getCompactGroup
+    self._oprot.trans.flush()
+  File "/data/data/com.termux/files/home/N/linepy/transport.py", line 118, in _f
+    result = f(*args, **kwargs)
+  File "/data/data/com.termux/files/home/N/linepy/transport.py", line 167, in flush
+    self.__http.endheaders()
+  File "/data/data/com.termux/files/usr/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/data/data/com.termux/files/usr/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/data/data/com.termux/files/usr/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/data/data/com.termux/files/usr/lib/python3.8/http/client.py", line 1399, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+  File "/data/data/com.termux/files/usr/lib/python3.8/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/data/data/com.termux/files/usr/lib/python3.8/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/data/data/com.termux/files/usr/lib/python3.8/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()

@@ -1,0 +1,4 @@
+  File "public.py", line 3402, in executeOp
+    logError(error)
+  File "public.py", line 145, in logError
+    print ('++ Error : {error}'.format(error=error))

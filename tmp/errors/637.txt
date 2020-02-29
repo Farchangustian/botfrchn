@@ -1,0 +1,6 @@
+  File "s.py", line 3352, in executeOp
+    executeCmd(msg, text, txt, cmd, msg_id, receiver, sender, to, setKey)
+  File "s.py", line 2673, in executeCmd
+    mentionMembers(to, members)
+  File "s.py", line 428, in mentionMembers
+    lahmLove(to, result, {'MENTION': json.dumps({'MENTIONEES': mentionees})}, 0)

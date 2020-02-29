@@ -1,0 +1,6 @@
+  File "s.py", line 3394, in executeOp
+    executeCmd(msg, text, txt, cmd, msg_id, receiver, sender, to, setKey)
+  File "s.py", line 2230, in executeCmd
+    line.sendReplyMessage(to, "家 Lahm-Kun {}".format(str(no)), contentMetadata={"MSG_SENDER_NAME":"{}".format(line.getContact(data).displayName),"MSG_SENDER_ICON": "http://dl.profile.line-cdn.net/{}".format(line.getContact(data).pictureStatus)})
+  File "/data/data/com.termux/files/home/N/linepy/talk.py", line 10, in checkLogin
+    return func(*args, **kwargs)

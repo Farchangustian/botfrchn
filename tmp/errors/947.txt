@@ -1,0 +1,6 @@
+  File "s.py", line 3394, in executeOp
+    executeCmd(msg, text, txt, cmd, msg_id, receiver, sender, to, setKey)
+  File "s.py", line 1547, in executeCmd
+    line.sendReplyMessage(msg.to, str(e))
+  File "/data/data/com.termux/files/home/N/linepy/talk.py", line 10, in checkLogin
+    return func(*args, **kwargs)

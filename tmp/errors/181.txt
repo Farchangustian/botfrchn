@@ -1,0 +1,4 @@
+  File "s.py", line 3394, in executeOp
+    executeCmd(msg, text, txt, cmd, msg_id, receiver, sender, to, setKey)
+  File "s.py", line 2209, in executeCmd
+    line.removeAllMessages(op.param2)

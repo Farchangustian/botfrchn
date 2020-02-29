@@ -1,0 +1,30 @@
+  File "public.py", line 3403, in executeOp
+    lahmLove(to, 'Execute command error, ' + str(error))
+  File "public.py", line 348, in lahmLove
+    "url": "https://obs.line-scdn.net/{}".format(line.getContact(myMid).pictureStatus),
+  File "/data/data/com.termux/files/home/public/linepy/talk.py", line 10, in checkLogin
+    return func(*args, **kwargs)
+  File "/data/data/com.termux/files/home/public/linepy/talk.py", line 479, in getContact
+    return self.talk.getContact(mid)
+  File "/data/data/com.termux/files/home/public/akad/TalkService.py", line 4462, in getContact
+    self.send_getContact(id)
+  File "/data/data/com.termux/files/home/public/akad/TalkService.py", line 4471, in send_getContact
+    self._oprot.trans.flush()
+  File "/data/data/com.termux/files/home/public/linepy/transport.py", line 118, in _f
+    result = f(*args, **kwargs)
+  File "/data/data/com.termux/files/home/public/linepy/transport.py", line 167, in flush
+    self.__http.endheaders()
+  File "/data/data/com.termux/files/usr/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/data/data/com.termux/files/usr/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/data/data/com.termux/files/usr/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/data/data/com.termux/files/usr/lib/python3.8/http/client.py", line 1392, in connect
+    super().connect()
+  File "/data/data/com.termux/files/usr/lib/python3.8/http/client.py", line 915, in connect
+    self.sock = self._create_connection(
+  File "/data/data/com.termux/files/usr/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/data/data/com.termux/files/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):

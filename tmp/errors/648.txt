@@ -1,0 +1,30 @@
+  File "public.py", line 3394, in executeOp
+    executeCmd(msg, text, txt, cmd, msg_id, receiver, sender, to, setKey)
+  File "public.py", line 1525, in executeCmd
+    line.sendMessage(msg.to,str(e))
+  File "/data/data/com.termux/files/home/public/linepy/talk.py", line 10, in checkLogin
+    return func(*args, **kwargs)
+  File "/data/data/com.termux/files/home/public/linepy/talk.py", line 107, in sendMessage
+    return self.talk.sendMessage(self._messageReq[to], msg)
+  File "/data/data/com.termux/files/home/public/akad/TalkService.py", line 8661, in sendMessage
+    self.send_sendMessage(seq, message)
+  File "/data/data/com.termux/files/home/public/akad/TalkService.py", line 8671, in send_sendMessage
+    self._oprot.trans.flush()
+  File "/data/data/com.termux/files/home/public/linepy/transport.py", line 118, in _f
+    result = f(*args, **kwargs)
+  File "/data/data/com.termux/files/home/public/linepy/transport.py", line 167, in flush
+    self.__http.endheaders()
+  File "/data/data/com.termux/files/usr/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/data/data/com.termux/files/usr/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/data/data/com.termux/files/usr/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/data/data/com.termux/files/usr/lib/python3.8/http/client.py", line 1392, in connect
+    super().connect()
+  File "/data/data/com.termux/files/usr/lib/python3.8/http/client.py", line 915, in connect
+    self.sock = self._create_connection(
+  File "/data/data/com.termux/files/usr/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/data/data/com.termux/files/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):

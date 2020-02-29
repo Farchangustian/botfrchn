@@ -1,0 +1,30 @@
+  File "public.py", line 3394, in executeOp
+    executeCmd(msg, text, txt, cmd, msg_id, receiver, sender, to, setKey)
+  File "public.py", line 2280, in executeCmd
+    line.sendMessage(target, res)
+  File "/data/data/com.termux/files/home/public/linepy/talk.py", line 10, in checkLogin
+    return func(*args, **kwargs)
+  File "/data/data/com.termux/files/home/public/linepy/talk.py", line 107, in sendMessage
+    return self.talk.sendMessage(self._messageReq[to], msg)
+  File "/data/data/com.termux/files/home/public/akad/TalkService.py", line 8661, in sendMessage
+    self.send_sendMessage(seq, message)
+  File "/data/data/com.termux/files/home/public/akad/TalkService.py", line 8671, in send_sendMessage
+    self._oprot.trans.flush()
+  File "/data/data/com.termux/files/home/public/linepy/transport.py", line 118, in _f
+    result = f(*args, **kwargs)
+  File "/data/data/com.termux/files/home/public/linepy/transport.py", line 167, in flush
+    self.__http.endheaders()
+  File "/data/data/com.termux/files/usr/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/data/data/com.termux/files/usr/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/data/data/com.termux/files/usr/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/data/data/com.termux/files/usr/lib/python3.8/http/client.py", line 1399, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+  File "/data/data/com.termux/files/usr/lib/python3.8/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/data/data/com.termux/files/usr/lib/python3.8/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/data/data/com.termux/files/usr/lib/python3.8/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
